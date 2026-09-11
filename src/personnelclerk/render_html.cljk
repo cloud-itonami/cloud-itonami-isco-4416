@@ -43,7 +43,7 @@
     only ever drives the real actor/graph the way an operator actually
     would.
 
-  Usage: `clojure -M:render-html [out-file]`
+  Usage: `kbb -M:render-html [out-file]`
   (default `docs/samples/operator-console.html`)."
   (:require [jp-go-dds.skin]
             [kotoba.lang.text :as str]
@@ -188,7 +188,7 @@
      "<main>\n"
      "  <section class=\"card\">\n"
      "    <h2>Registered positions</h2>\n"
-     "    <p class=\"muted\">Demo snapshot — build-time-generated from <code>personnelclerk.store</code> via <code>personnelclerk.render-html</code> (<code>clojure -M:render-html</code>), regenerated nightly. Required fields and the background-check flag are the registered ground truth the governor checks every onboarding against — an incomplete personnel file or an uncleared background check is not onboardable.</p>\n"
+     "    <p class=\"muted\">Demo snapshot — build-time-generated from <code>personnelclerk.store</code> via <code>personnelclerk.render-html</code> (<code>kbb -M:render-html</code>), regenerated nightly. Required fields and the background-check flag are the registered ground truth the governor checks every onboarding against — an incomplete personnel file or an uncleared background check is not onboardable.</p>\n"
      "    <table>\n"
      "      <thead><tr><th>Client</th><th>Position</th><th>Name</th><th>Required fields</th><th>Background check</th><th>Records</th><th>Last op status</th></tr></thead>\n"
      "      <tbody>\n"
