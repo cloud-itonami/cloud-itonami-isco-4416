@@ -28,7 +28,7 @@
     6. :op :approve-provisional-start (starting work before all
                            checks complete, under exception).
     7. low confidence (< `confidence-floor`)."
-  (:require [clojure.set :as set]
+  (:require [kotoba.lang.coll :as set]
             [personnelclerk.store :as store]))
 
 (def confidence-floor 0.6)
